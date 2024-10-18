@@ -16,5 +16,5 @@ Este script em Python gera arquivos de configuração .ls para robôs Fanuc, per
 # Sistema de Monitoramento e Análise Comportamental em Sala de Aula - Zero
 Aplicação Python que utiliza visão computacional para monitorar alunos em tempo real e gerar relatórios detalhados sobre o engajamento e o comportamento em sala de aula.
 
-#Conversor de Codificação de Arquivos para UTF-8 - utfChanger
+# Conversor de Codificação de Arquivos para UTF-8 - utfChanger
 Este script em Python converte a codificação de todos os arquivos em subpastas localizadas dentro de uma pasta chamada "raiz" para UTF-8. O usuário deve criar a pasta "raiz" e adicionar as pastas dos robôs com os programas a serem convertidos. O programa lê os arquivos existentes com a codificação UTF-8-SIG, ajusta sua codificação para UTF-8 e salva as alterações. O objetivo é padronizar a codificação dos arquivos para garantir compatibilidade e facilitar a manipulação dos dados.
