@@ -1,0 +1,13 @@
+{
+  "config": {
+    "jlog": true,
+    "margem": 40,
+    "detect_face": 0.2,
+    "key_foto": "f",
+    "tempo_foto": 5,
+    "tempo_rotina": 5,
+    "fim_rotina": false,
+    "mostrar_camera": true,
+    "cam": 1
+  }
+}
