@@ -1,0 +1,9 @@
+{
+  "head": "/PROG tooldata\n/ATTR\nOWNER        = MNEDITOR;\nCOMMENT      = \"TOOLDATA BY CODE AUTOMACAO E ROBOTICA\";\nPROG_SIZE    = 0;\nCREATE       = DATE {data}  TIME {time};\nMODIFIED     = DATE {data}  TIME {time};\nFILE_NAME    = ;\nVERSION      = 0;\nLINE_COUNT   = 0;\nMEMORY_SIZE  = 0;\nPROTECT      = READ_WRITE;\nTCD: STACK_SIZE    = 0,\n     TASK_PRIORITY = 50,\n     TIME_SLICE    = 0,\n     BUSY_LAMP_OFF = 0,\n     ABORT_REQUEST = 0,\n     PAUSE_REQUEST = 0;\nDEFAULT_GROUP = 1,*,*,*,*;\nCONTROL_CODE  = 00000000 00000000;\n/APPL\n/MN\n",
+  "payload": "! ---PAYLOAD {id}--- ;\n! ---(RODAR EM COLD START)--- ;\n;\n$PLST_GRP1[{id}].$PAYLOAD = {v1} ;\n$PLST_GRP1[{id}].$PAYLOAD_X = {v2} ;\n$PLST_GRP1[{id}].$PAYLOAD_Y = {v3} ;\n$PLST_GRP1[{id}].$PAYLOAD_Z = {v4} ;\n$PLST_GRP1[{id}].$PAYLOAD_IX = {v5} ;\n$PLST_GRP1[{id}].$PAYLOAD_IY = {v6} ;\n$PLST_GRP1[{id}].$PAYLOAD_IZ = {v7} ;",
+  "toolframe": "! ---UTOOL {id}--- ;\n;\nPR[1,1] = {v1} ;\nPR[1,2] = {v2} ;\nPR[1,3] = {v3} ;\nPR[1,4] = {v4} ;\nPR[1,5] = {v5} ;\nPR[1,6] = {v6} ;\nUTOOL[{id}]=PR[1] ;",
+  "userframe": "! ---UFRAME {id}--- ;\n;\nPR[1,1] = {v1} ;\nPR[1,2] = {v2} ;\nPR[1,3] = {v3} ;\nPR[1,4] = {v4} ;\nPR[1,5] = {v5} ;\nPR[1,6] = {v6} ;\nUFRAME[{id}]=PR[1] ;",
+  "homepos": "! ---HOMEPOS--- ;\n! ---(RODAR EM COLD START)--- ;\n;\n$REFPOS1[1].$PERCHPOS[1] = {v1} ;\n$REFPOS1[1].$PERCHPOS[2] = {v2} ;\n$REFPOS1[1].$PERCHPOS[3] = {v3} ;\n$REFPOS1[1].$PERCHPOS[4] = {v4} ;\n$REFPOS1[1].$PERCHPOS[5] = {v5} ;\n$REFPOS1[1].$PERCHPOS[6] = {v6} ;\nCALL GET_HOME ;",
+  "comment": " !****************************** ;\n !*                            * ;\n !*     ESSE PROGRAMA FOI      * ;\n !*      FEITO PELA CODE       * ;\n !*    AUTOMACAO E ROBOTICA    * ;\n !*                            * ;\n !****************************** ;\n ;\n! DEFININDO A PR[1] COMO CARTESIANA ;\nPR[1]=LPOS ;",
+  "foot": "/POS\n/END\n"
+}
