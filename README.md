@@ -18,3 +18,6 @@ Aplicação Python que utiliza visão computacional para monitorar alunos em tem
 
 # Conversor de Codificação de Arquivos para UTF-8 - utfChanger (Finalizado)
 Este script em Python converte a codificação de todos os arquivos em subpastas localizadas dentro de uma pasta chamada "raiz" para UTF-8. O usuário deve criar a pasta "raiz" e adicionar as pastas dos robôs com os programas a serem convertidos. O programa lê os arquivos existentes com a codificação UTF-8-SIG, ajusta sua codificação para UTF-8 e salva as alterações. O objetivo é padronizar a codificação dos arquivos para garantir compatibilidade e facilitar a manipulação dos dados.
+
+# Roguelike (Game Maker)
+Um jogo roguelike de zombies criado no Game Maker Studio. O jogo contem sistema de mapa aleatório com áres pré-modeladas; troca de armas com slots e física aplicada; zombies com inteligencia artificial e os códigos estão prontos para adicionar de forma simples e rápida, novas armas e enimigos variados. Feito com Game Maker Language (GML), o jogo não fica preso a físicas e funcionalidades da IDE.
