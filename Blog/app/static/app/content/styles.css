@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+
+/* Conteúdo Principal */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Cartão de Post */
+.post-card {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+    .post-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .post-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+        .post-card h2 a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .post-card .post-date {
+        color: #888;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .post-card .post-content {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .post-card .read-more {
+        display: inline-block;
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .post-card .read-more:hover {
+            text-decoration: underline;
+        }
+
+/* Detalhes do Post */
+.post-detail {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .back-link:hover {
+        text-decoration: underline;
+    }
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
