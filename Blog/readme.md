@@ -21,8 +21,8 @@ O **Blog em Django** é uma aplicação simples de blog desenvolvida com o frame
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/usuario/repo-blog.git
-    cd repo-blog
+    git clone https://github.com/JoaoVictorSanta/Projetos/tree/main/Blog
+    cd Blog
     ```
 
 2. Instale as dependências:
