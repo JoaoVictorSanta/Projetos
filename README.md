@@ -16,6 +16,9 @@ Este projeto cria uma interface gráfica usando PySimpleGUI para configurar par�
 # Gerador de Arquivos de Configuração de Tool Frame, User Frame e Payload - Tooldata (Finalizado)
 Este script em Python gera arquivos de configuração .ls para robôs Fanuc, permitindo a configuração de Tool Frame, User Frame e Payload a partir de entradas fornecidas pelo usuário. Ele personaliza as saídas com cabeçalhos e rodapés e estrutura os dados com base em um arquivo JSON predefinido. Com um menu interativo, o usuário pode configurar diferentes tipos de frames e payloads, gerando um arquivo final com todas as informações. Este código é o antecessor de uma versão mais avançada, focada na melhoria do processo de backup e manipulação remota dos dados via FTP, conforme o novo projeto do usuário. Esta é a versão anterior do programa citado acima.
 
+# API de Feitiços - Spells API (Finalizado)
+Uma API simples desenvolvida em Python utilizando Flask para fornecer informações sobre feitiços do universo de Harry Potter. A aplicação permite que os usuários consultem uma lista de feitiços, suas descrições e níveis de dificuldade através de endpoints RESTful. A API inclui funcionalidades para buscar todos os feitiços ou consultar um feitiço específico por ID. Ideal para quem deseja integrar informações de feitiços em projetos ou aplicativos.
+
 # Sistema de Monitoramento e Análise Comportamental em Sala de Aula - Zero
 Aplicação Python que utiliza visão computacional para monitorar alunos em tempo real e gerar relatórios detalhados sobre o engajamento e o comportamento em sala de aula.
 
