@@ -1,6 +1,9 @@
 # Projetos
 Aqui estão todos os projetos que desenvolvi.
 
+# Blog Simples em Django (Finalizado)
+Aplicação web em Django para gerenciamento de postagens de blog. Permite criar, editar e visualizar posts de maneira simples, com um painel administrativo para facilitar o controle do conteúdo. Ideal para blogs pessoais ou projetos pequenos.
+
 # Backup e Geração de ToolData para Robôs Fanuc - FrameBKP (Finalizado)
 Este projeto realiza backups de dados de frames (Tool Frame e User Frame) de robôs Fanuc via FTP ou arquivos locais. Os backups geram arquivos de texto organizados com cabeçalho e rodapé personalizados.
 
