@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome": "Accio",
+    "efeito": "Atrai o objeto desejado",
+    "dificuldade": "Fácil"
+  },
+  {
+    "id": 2,
+    "nome": "Bombarda",
+    "efeito": "Causa uma explosão",
+    "dificuldade": "Médio"
+  },
+  {
+    "id": 3,
+    "nome": "Crucio",
+    "efeito": "Cause enormes dores no corpo da vítima",
+    "dificuldade": "Difícil"
+  },
+  {
+    "id": 4,
+    "nome": "Ebulio",
+    "efeito": "Faz bolhas saírem da varinha ou da mão do bruxo",
+    "dificuldade": "Fácil"
+  },
+  {
+    "id": 5,
+    "nome": "Finite Incantatem",
+    "efeito": "Acaba com o efeito de um feitiço lançado em algo ou alguém",
+    "dificuldade": "Difícil"
+  },
+  {
+    "id": 6,
+    "nome": "Incendio",
+    "efeito": "Lança uma explosão de fogo na direção apontada pela varinha",
+    "dificuldade": "Médio"
+  },
+  {
+    "id": 7,
+    "nome": "Revelio",
+    "efeito": "Revela objetos escondidos",
+    "dificuldade": "Fácil"
+  },
+  {
+    "id": 8,
+    "nome": "Sectumsempra",
+    "efeito": "Produz cortes profundos no oponente",
+    "dificuldade": "Difícil"
+  }
+]
